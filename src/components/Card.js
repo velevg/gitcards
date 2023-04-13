@@ -14,9 +14,9 @@ class Card extends React.Component {
             />
           </div>
           <div className="card-body text-center">
-              <div className="card-title">{profile.name}</div>
-              <div className="card-text">{profile.company}</div>
-            </div>
+            <div className="card-title">{profile.name}</div>
+            <div className="card-text">{profile.company}</div>
+          </div>
         </div>
       </div>
     );
